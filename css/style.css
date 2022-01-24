@@ -1,0 +1,242 @@
+/* common */
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #010101;
+}
+/* common */
+
+/* header */
+header{
+    background: #fcdb00;
+    padding: 15px 0 0 0;
+}
+.logo{}
+.c_navber{
+    box-shadow: none;
+    transition: .3s;
+}
+.c_navber:focus{
+    box-shadow: 0 0 0 .12rem;
+}
+.c_navber:hover{
+    transform: scale(.7);
+}
+.menu{
+   
+}
+.menu li{
+    /* padding: 0 7px; */
+    text-transform: capitalize;
+}
+.menu li a{
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+    padding: 0 30px !important;
+    transition: .5s;
+}
+.menu li:last-child a{
+    padding-right: 0 !important;
+}
+    
+
+.menu li a:hover{
+    color: #fff !important;
+}
+
+/* header */
+
+/* slider area */
+
+.slider{
+    padding: 62px 0;
+    background-color: #fcdb00;
+}
+.c_indicator{
+  
+    bottom: -61px;
+   
+}
+.carousel-indicators .active {
+    background: green;
+    background-clip: padding-box;
+}
+.carousel-indicators [data-bs-target] {
+   
+    width: 15px;
+    height: 17px;
+    border-radius: 50%;
+}
+
+.c_content{
+    padding: 65px 0;
+}
+.c_content h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.c_content h2 {
+    margin: 16px 0;
+    letter-spacing: .5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #313841;
+    
+  }
+.c_content p{
+    color: #555;
+}
+
+.icon{}
+.icon li{}
+.icon li i {
+    font-size: 42px;
+    margin-right: 17px;
+    transition: .7s;
+}
+.icon li i:hover{
+    transform: scale(.7);
+}
+
+.c_img{
+    text-align: center;
+}
+/* slider area */
+/* feaute start// */
+.feature {
+    margin: 80px 0;
+}
+
+.c-row{
+    margin: 20px 0;
+}
+.c-touch{
+    /* margin: 80px 0; */
+}
+.touch-area-st.text-center{}
+.touch-area-st.text-center h3 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.touch-area-st.text-center p {
+    font-size: 20px;
+    /* font-weight: 700; */
+    color: #313841;
+}
+.feature p{
+    font-size: 20px;
+}
+.fea-img p{
+    font-size: 50px;
+}
+.fea-content{}
+.fea-content h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+.fea-content p {
+    font-size: 16px;
+    color: #898989;
+}
+.row.c-fea-nd {
+    margin: 80px 0;
+}
+/* feaute end// */
+
+
+/* contact area/ */
+.contact{
+    background: #010101;
+    padding: 80px 0;
+}
+.touch-area{}
+.touch-area h3 {
+    font-size: 32px;
+    color: #fcdb00;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.touch-area p {
+    margin-top: 1rem;
+    font-size: 20px;
+    color: #898989;
+}
+/* contact area/ */
+/* form area/ */
+.c-form{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.c-control{
+    padding: 10px;
+}
+.btn.btn-c {
+    padding: 10px;
+    width: 100%;
+    background: #fcdb00;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .7s;
+    
+  }
+  .btn.btn-c:hover{
+      background: #fff;
+  }
+/* form area/ */
+
+/* icon area/ */
+.c-icon {
+    text-align: center;
+    margin: 23px 0;
+  }
+.c-icon ul{} 
+.c-icon ul li{
+    font-size: 42px;
+} 
+.c-icon ul li a{
+        color: #fcdb00;
+        margin-right: 15px;
+    
+}
+
+.c-icon ul li a:last-child{
+    margin-right: 0;
+}
+.c-icon ul li a:hover{
+    color: #fff;
+} 
+/* icon area/ */
+
+/* footer area */
+footer{
+    margin: ;
+    background: #010101;
+}
+
+.f_footer{
+    
+}
+.f_footer p{
+   color:  #fff;
+}
+
+.nd-footer{
+
+}
+.nd-footer p{
+   margin: 0;
+}
+.nd-footer p a{
+    color: #fff;
+    text-decoration: none;
+    transition: .7s;
+}
+.nd-footer p a:hover{
+    color: yellow;
+}
+/* footer area */

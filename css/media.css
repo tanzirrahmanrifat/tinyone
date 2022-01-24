@@ -1,0 +1,248 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+/* common */
+.offset-2{
+    margin: 0;
+}
+/* common */
+
+
+/* header */
+.menu{
+    margin-right: 8px;
+}
+.menu li{
+    padding: 3px 0;
+}
+.menu li a{
+   padding: 0 !important;
+   text-align: right;
+  
+  
+}
+/* header */
+/* slider area/ */
+.c_content{
+    /* width: 50%; */
+    padding: 0;
+}
+.c_content h1 {
+    font-size: 28px;
+    font-weight: 700 !important;
+    text-align: center;
+  }
+.c_content h2{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.c_content p {
+    
+    text-align: center;
+    letter-spacing: .5px;
+  }
+.icon{
+    padding: 9px 0;
+    text-align: center;
+}
+.icon li i {
+    font-size: 29px;
+    margin-right: 7px;
+    
+  }
+.c_img{
+    margin: 30px 0;
+}
+/* slider area/ */
+
+/* feature area// */
+.feature {
+    margin: 50px 0;
+}
+
+.touch-area-st.text-center p {
+    font-size: 16px;
+    /* font-weight: 700;
+    color: #313841; */
+}
+
+.c-row {
+    margin: 10px 0;
+}
+.touch-area-st.text-center h3 {
+    font-size: 28px;
+}
+.row.c-fea-nd {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* feature area// */
+
+/* contact area/ */
+.c-control{
+    padding: 5px;
+}
+
+.btn.btn-c{
+    padding: 5px;
+
+
+}
+.c-icon{
+    margin: 0;
+}
+.c-icon ul li{
+    font-size: 35px;
+}
+.c-icon ul li a{
+    margin-right: 5px;
+}
+/* contact area/ */
+/* footer area// */
+footer{
+    text-align: center;
+}
+.nd-footer {
+    margin: 15px 0;
+}
+/* footer area// */
+
+   
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* .offset-2{
+        margin: 0;
+    } */
+ /* header aria/    */
+.menu li{
+    padding: 7px 0;
+}
+.menu li a{
+   padding: 0 !important;
+   text-align: right;
+  
+  
+}
+ /* header aria/    */
+
+ /* slider aria/ */
+.c_content{
+    /* width: 50%; */
+    padding: 0;
+}
+.c_content h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+.c_content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.icon li i {
+    font-size: 29px;
+    margin-right: 7px;
+    
+  }
+.c_img{
+    margin: 30px 0;
+}
+ /* slider aria/ */
+
+/* feature area// */
+.feature {
+    
+    text-align: center;
+}
+.touch-area-st.text-center p {
+    font-size: 16px;
+    /* font-weight: 700;
+    color: #313841; */
+}
+/* feature area// */
+
+/* contact area/ */
+.c-control{
+    /* padding: 5px; */
+}
+.btn.btn-c{
+    /* padding: 5px; */
+}
+.c-icon{
+    margin: 8px 0;
+}
+/* contact area/ */
+/* footer area// */
+footer{
+    text-align: center;
+}
+/* footer area// */
+ 
+}
+/* medium devices (tablets, 768px up  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* .slider{
+        padding: 20px 0;
+    }
+    .c_indicator{
+  
+        bottom: -7px;
+       
+    } */
+/* slider area/ */
+
+.c-touch {
+    margin: 50px 0;
+}
+
+.c_content {
+    padding: 20px 0;
+  }
+.c_content h1{
+    font-size: 27px;
+}
+/* slider area/ */
+}
+
+
+/* .feature area// */
+.fea-img p {
+    font-size: 35px;
+}
+
+.fea-content h4 {
+    font-size: 17px;
+    
+}
+
+
+
+.row.c-fea-nd {
+    margin: 36px 0;
+}
+/* .feature area// */
+/* contact area/ */
+
+
+/* contact area/ */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+
+ }
+ /* Large devices ( large desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+    
+}
+
+/* Extra extra large devices ( extra extra large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+   
+}
