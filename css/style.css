@@ -131,6 +131,10 @@ header{
 }
 .fea-img p{
     font-size: 50px;
+    transition: .5s;
+}
+.fea-img p:hover{
+    transform: scale(1.3);
 }
 .fea-content{}
 .fea-content h4 {
@@ -174,6 +178,10 @@ header{
 .c-control{
     padding: 10px;
 }
+.c-control:focus{
+    outline: 0 !important;
+    box-shadow: 0 0 0 .12rem #010101 !important;
+}
 .btn.btn-c {
     padding: 10px;
     width: 100%;
@@ -214,7 +222,7 @@ header{
 
 /* footer area */
 footer{
-    margin: ;
+  
     background: #010101;
 }
 
